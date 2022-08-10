@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marvin Coleman</title>
+    <style>
+        body {
+          margin: 0;
+          padding: 0;
+          font-family: "Roboto", sans-serif;
+          font-size: 16px;
+          color: #333;
+          background-color: #abb;
+          min-height: 100vh;
+        }
+
+        .wrapper{
+            max-width: 90vw;
+        }
+  
+        p {
+          margin: 0;
+          padding: 0;
+          font-size: 18px;
+        }
+  
+        .flex {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
+  
+        .side-by-side {
+          display: flex;
+          flex-direction: row;
+          width: 100%;
+          max-width: 1400px;
+          justify-content: space-around;
+          align-items: center;
+        }
+  
+        .center {
+          text-align: center;
+        }
+  
+        footer {
+          margin-top: auto;
+          padding-top: 1rem;
+          font-size: 0.8rem;
+          color: #555;
+          min-height: 200px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        iframe{
+          max-width: 80%;
+        }
+  
+        /* on mobile */
+          @media (max-width: 1300px) {
+              .side-by-side {
+              flex-direction: column;
+              }
+
+          }
+  
+      </style>
+  </head>
+  <body class="flex">
+    <div class="flex wrapper">
+    <h1 class="center">Marvin Coleman</h1>
+    <h2>The stream will begin on Saturday August 13th around 9:45 MST</h2>
+    <p>To ensure stability, The stream will be available on these two streaming services.</p>
+    <p>If you experience dificulty, try the other service or refresh the page.</p>
+    <div class="side-by-side">
+      <div>
+        <h2>stream.courdh.com</h2>
+        <iframe
+          src="https://stream.courdh.com/3ae5a1b3-1bd7-4cc9-af83-dc765ae18165.html"
+          width="640"
+          height="290"
+          frameborder="no"
+          scrolling="no"
+          allowfullscreen="true"
+        ></iframe>
+        <br />
+        <br />
+        <a href="https://stream.courdh.com/"> watch on site </a>
+      </div>
+      <div>
+        <h2>youtube.com</h2>
+        <iframe
+          width="640"
+          height="287"
+          src="https://www.youtube.com/embed/FnTkFU_0MXc"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <br />
+        <br />
+        <a
+          href="https://www.youtube.com/watch?v=FnTkFU_0MXc&ab_channel=CourdHeadman"
+        >
+          watch on site
+        </a>
+      </div>
+    </div>
+    <footer>Thanks for stopping by</footer>
+</div>
+  </body>
+</html>
